@@ -1,5 +1,6 @@
 package stepDefination;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -20,6 +21,7 @@ public class SmokeTestNew
 		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver2");
 		driver=new ChromeDriver();
 		driver.get("http://www.facebook.com");
+		Assert.assertEquals(12, 13);
 		
 	}
 
