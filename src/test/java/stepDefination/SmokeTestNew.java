@@ -19,7 +19,6 @@ public class SmokeTestNew
 	
 		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver2");
 		driver=new ChromeDriver();
-		
 		driver.get("http://www.facebook.com");
 		
 	}

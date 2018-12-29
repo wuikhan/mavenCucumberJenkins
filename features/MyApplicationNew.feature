@@ -7,7 +7,7 @@ Feature: Test Facebook smoke scenario
     Then application should be closed
 
     Examples: 
-      | username          | password  |
-      | mukesh@gmail.com  | password1 |
-      | mukesh2@gmail.com | password2 |
-      | mukesh3@gmail.com | password3 |
+      | username       | password  |
+      | abc@gmail.com  | password1 |
+      | abc2@gmail.com | password2 |
+      | abc3@gmail.com | password3 |
